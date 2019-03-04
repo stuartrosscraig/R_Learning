@@ -1,5 +1,5 @@
 # Title     : TODO
-# Objective : TODO
+# Objective : Find the area of a rectangle
 # Created by: scra0010
 # Created on: 4/03/2019
 
@@ -13,3 +13,4 @@ area <- height * width
 
 # Print the area
 area
+print(area)
