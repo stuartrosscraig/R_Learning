@@ -210,6 +210,7 @@ l2 <- c(l2, "another string")
 str(l2)
 
 cars_names <- c("mpg","cyl","disp","hp","drat","wt","qsec","vs","am","gear","carb")
+cars_names
 Mazda_RX4 <- c(21.0,6,160.0,110,3.90,2.620,16.46,0,1,4,4)
 Mazda_RX4_Wag <- c(21.0,6,160.0,110,3.90,2.875,17.02,0,1,4,4)
 Datsun_710 <- c(22.8,4,108.0,93,3.85,2.320,18.61,1,1,4,1)
@@ -274,7 +275,8 @@ allcars[[1]][1]
 
 variables <- list()
 for (i in length(cars_names)){
-variables[i]
+  lvar <- c()
+  rename.variables[i] 
 
 }
 
@@ -284,5 +286,10 @@ for (i in length(allcars)){
 }
 
 
+for (i in length(allcars)){
+  mpg[i] <-
+  
+}
 
+mtcars <- data.frame(mpg,cyl,disp,hp,drat,wt,qsec,vs,am,gear,carb)
 
