@@ -11,9 +11,11 @@ width <- 6
 # Calculate the area
 area <- height * width
 
-# Print the area
+# Print the area in R
 area
-print(area)
+
+# print the area in pycharm 
+# print(area)
 
 
 # Well, here's another change
