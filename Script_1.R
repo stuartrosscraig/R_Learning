@@ -293,3 +293,16 @@ for (i in length(allcars)){
 
 mtcars <- data.frame(mpg,cyl,disp,hp,drat,wt,qsec,vs,am,gear,carb)
 
+
+# Dataframes
+
+name <- c("Anne", "Pete", "Frank", "Julia", "Cath")
+age <- c(28,30,21,39,35)
+child <- c(FALSE, TRUE, TRUE, FALSE, TRUE)
+people <- data.frame(name, age, child)
+
+
+
+str(people$age)
+str(people[["age"]])
+str(people[[2]])
