@@ -306,3 +306,20 @@ people <- data.frame(name, age, child)
 str(people$age)
 str(people[["age"]])
 str(people[[2]])
+str(people["age"])
+str(sort(people$age))
+
+order(people$age)
+people
+
+height <- c(163, 177, 163, 162, 157)
+people$height <- height
+people
+
+tom <- data.frame(name="Tom", age=37, child=FALSE, height=183)
+rbind(people, tom)
+
+ranks <- order(people$age)
+ranks
+
+people[ranks, ]
