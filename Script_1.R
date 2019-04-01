@@ -246,6 +246,7 @@ Volvo_142E <- c(21.4,4,121.0,109,4.11,2.780,18.60,1,1,4,2)
 
 # this is a set of vectors which would be the observations in the dataframe - we don't pass vectors of the observations in dataframe(), we pass vectors of the individual variables - how can i easy construct vectors collecting the individual elements of the observations together??
 
+# TODO make matrix out of the above and then make vectors out of its columns - use a vector of the names and the vectors of all the columns to make a dataframe with the names from the vector of names
 
 allcars <- list(Mazda_RX4,Mazda_RX4_Wag,Datsun_710,Hornet_4_Drive,Hornet_Sportabout,Valiant,Duster_360,Merc_240D,Merc_230,Merc_280,Merc_280C,Merc_450SE,Merc_450SL,Merc_450SLC,Cadillac_Fleetwood,Lincoln_Continental,Chrysler_Imperial,Fiat_128,Honda_Civic,Toyota_Corolla,Toyota_Corona,Dodge_Challenger,AMC_Javelin,Camaro_Z28,Pontiac_Firebird,Fiat_X1_9,Porsche_914_2,Lotus_Europa,Ford_Pantera_L,Ferrari_Dino,Maserati_Bora,Volvo_142E)
 
@@ -323,3 +324,26 @@ ranks <- order(people$age)
 ranks
 
 people[ranks, ]
+
+# todo testing the todo...
+
+planets_df
+name               type diameter rotation has_rings
+1 Mercury Terrestrial planet    0.382    58.64     FALSE
+2   Venus Terrestrial planet    0.949  -243.02     FALSE
+3   Earth Terrestrial planet    1.000     1.00     FALSE
+4    Mars Terrestrial planet    0.532     1.03     FALSE
+5 Jupiter          Gas giant   11.209     0.41      TRUE
+6  Saturn          Gas giant    9.449     0.43      TRUE
+7  Uranus          Gas giant    4.007    -0.72      TRUE
+8 Neptune          Gas giant    3.883     0.67      TRUE
+
+# TODO here's more data to practise putting a dataframe together
+
+ls()
+
+a <- c(100,9,101)
+order(a)
+a[order(a)]
+a
+
